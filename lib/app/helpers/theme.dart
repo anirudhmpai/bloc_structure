@@ -90,12 +90,6 @@ class MyClipper extends CustomClipper<Path> {
   bool shouldReclip(CustomClipper<Path> oldClipper) => true;
 }
 
-ThemeData defaultThemeData = ThemeData(
-  floatingActionButtonTheme: const FloatingActionButtonThemeData(
-    shape: RoundedRectangleBorder(),
-  ),
-);
-
 class AppThemes {
   static ThemeData? getThemeFromKey(AppTheme themeKey) {
     switch (themeKey) {
