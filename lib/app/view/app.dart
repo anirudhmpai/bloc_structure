@@ -1,11 +1,11 @@
+import 'package:bloc_structure/app/bloc/theme/theme_bloc.dart';
+import 'package:bloc_structure/app/routes/app_routes.dart';
+import 'package:bloc_structure/home/bloc/home_bloc.dart';
+import 'package:bloc_structure/home/view/home_page.dart';
+import 'package:bloc_structure/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:locfet/app/bloc/theme/theme_bloc.dart';
-import 'package:locfet/app/routes/app_routes.dart';
-import 'package:locfet/home/bloc/home_bloc.dart';
-import 'package:locfet/home/view/home_page.dart';
-import 'package:locfet/l10n/l10n.dart';
 
 final _navigatorKey = GlobalKey<NavigatorState>();
 NavigatorState get navigator => _navigatorKey.currentState!;

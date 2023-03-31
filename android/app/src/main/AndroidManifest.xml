@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.anirudhmpai.locfet.locfet">
+    package="com.anirudhmpai.blocStructure">
    <application
         android:label="${appName}"
         android:icon="@mipmap/ic_launcher">

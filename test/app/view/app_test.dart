@@ -1,6 +1,6 @@
+import 'package:bloc_structure/app/app.dart';
+import 'package:bloc_structure/counter/counter.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:locfet/app/app.dart';
-import 'package:locfet/counter/counter.dart';
 
 void main() {
   group('App', () {

@@ -1,6 +1,17 @@
 part of 'home_bloc.dart';
 
 @immutable
-abstract class HomeState {}
+class HomeState {
+  const HomeState({
+    required this.bottomNavPage,
+  });
+  final int bottomNavPage;
 
-class HomeInitial extends HomeState {}
+  HomeState copyWith({
+    int? bottomNavPage,
+  }) {
+    return HomeState(
+      bottomNavPage: bottomNavPage ?? this.bottomNavPage,
+    );
+  }
+}

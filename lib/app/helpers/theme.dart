@@ -1,5 +1,5 @@
+import 'package:bloc_structure/app/helpers/enums.dart';
 import 'package:flutter/material.dart';
-import 'package:locfet/app/helpers/enums.dart';
 
 Map<AppTheme, ThemeData> appThemeData = {
   AppTheme.light: ThemeData(colorScheme: colorScheme[AppTheme.light]),
@@ -89,12 +89,6 @@ class MyClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) => true;
 }
-
-ThemeData defaultThemeData = ThemeData(
-  floatingActionButtonTheme: const FloatingActionButtonThemeData(
-    shape: RoundedRectangleBorder(),
-  ),
-);
 
 class AppThemes {
   static ThemeData? getThemeFromKey(AppTheme themeKey) {
