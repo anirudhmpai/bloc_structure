@@ -1,9 +1,9 @@
+import 'package:bloc_structure/app/bloc/theme/theme_bloc.dart';
+import 'package:bloc_structure/app/helpers/enums.dart';
+import 'package:bloc_structure/app/helpers/theme.dart';
+import 'package:bloc_structure/home/bloc/home_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:locfet/app/bloc/theme/theme_bloc.dart';
-import 'package:locfet/app/helpers/enums.dart';
-import 'package:locfet/app/helpers/theme.dart';
-import 'package:locfet/home/bloc/home_bloc.dart';
 
 GlobalKey switcherGlobalKey = GlobalKey();
 GlobalKey bottomNavHomeGlobalKey = GlobalKey();

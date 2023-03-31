@@ -1,4 +1,4 @@
-package com.anirudhmpai.locfet.locfet
+package com.anirudhmpai.blocStructure
 
 import io.flutter.embedding.android.FlutterActivity
 

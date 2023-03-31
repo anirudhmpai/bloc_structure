@@ -1,7 +1,7 @@
+import 'package:bloc_structure/counter/counter.dart';
+import 'package:bloc_structure/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:locfet/counter/counter.dart';
-import 'package:locfet/l10n/l10n.dart';
 
 class CounterPage extends StatelessWidget {
   const CounterPage({super.key});
@@ -50,6 +50,6 @@ class CounterText extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final count = context.select((CounterCubit cubit) => cubit.state);
-    return Text('$count', style: theme.textTheme.headline1);
+    return Text('$count', style: theme.textTheme.displayLarge);
   }
 }
